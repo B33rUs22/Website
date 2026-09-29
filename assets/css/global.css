@@ -1,0 +1,5 @@
+html { scroll-behavior: smooth; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-weight: 300; font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+#page-status { margin: 32px 6vw; padding: 18px 20px; border: 1px solid var(--line); color: var(--grey); font-family: var(--font-mono); font-size: 13px; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 6vw; }

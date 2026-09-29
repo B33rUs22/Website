@@ -1,0 +1,59 @@
+    <section class="block" id="sourcing-map">
+      <div class="block-head">
+        <span class="block-num">04 — Explore sourcing</span>
+
+        <div>
+          <h2>One globe. Seven sourcing regions.</h2>
+          <p>
+            Select a continent to explore materials and products commonly sourced
+            there. We can help match specifications with suppliers.
+          </p>
+        </div>
+      </div>
+
+      <div class="globe-layout">
+        <div>
+          <div class="globe-wrap">
+            <div
+              class="globe"
+              role="group"
+              aria-label="Interactive Earth globe. Drag to rotate; select a continent for sourcing examples."
+            >
+              <canvas
+                id="earth-canvas"
+                tabindex="0"
+                aria-label="Monochrome Earth. Hold the left mouse button and drag to rotate. Click a continent marker or press 1 through 7 to select it."
+              ></canvas>
+
+              <img
+                id="earth-map"
+                src="assets/images/earth-map.jpg"
+                alt=""
+                hidden
+              >
+            </div>
+          </div>
+
+          <p class="globe-hint">CLICK A REGION TO EXPLORE</p>
+        </div>
+
+        <div class="source-panel" aria-live="polite" aria-atomic="true">
+          <div class="source-kicker" id="source-region">REGION 03 / 07</div>
+
+          <h3 id="source-title">Europe</h3>
+
+          <p id="source-description">
+            A broad supplier base for precision manufacturing, design-led goods and
+            specialty food products.
+          </p>
+
+          <div class="source-examples">
+            <strong>EXAMPLE SOURCING CATEGORIES</strong>
+            <span id="source-items">
+              Industrial machinery · specialty chemicals · technical textiles ·
+              olive oil and cheese
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>

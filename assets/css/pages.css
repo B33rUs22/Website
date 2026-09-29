@@ -1,0 +1,13 @@
+@media (max-width:780px) {
+  .logo img { width:190px; }
+  nav ul { display:none; }
+  .block-head, .contact-grid, .process-row { grid-template-columns:1fr; gap:14px; }
+  .services { grid-template-columns:1fr 1fr; }
+  .strip-item { flex:1 1 45%; }
+  .materials-grid { grid-template-columns:1fr 1fr; }
+  .globe-layout { grid-template-columns:1fr; gap:32px; }
+  .globe-wrap { width:min(100%,360px); }
+  .material-card:last-child { grid-column:1 / -1; }
+  .material-card img, .material-swatch { height:190px; }
+}
+@media (max-width:480px) { .materials-grid { grid-template-columns:1fr; } .material-card:last-child { grid-column:auto; } .material-card img, .material-swatch { height:230px; } }
